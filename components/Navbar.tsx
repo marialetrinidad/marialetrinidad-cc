@@ -1,5 +1,6 @@
 "use client"
 
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -28,21 +29,21 @@ export default function Navbar() {
   const pathname = usePathname()
 
   return (
-    <nav className="flex flex-col sm:flex-row sm:items-center sm:justify-between px-6 py-4 gap-3">
+    <nav className="flex flex-col sm:flex-row sm:items-center sm:justify-between px-6 py-8 gap-3">
       <Link href="/">
         <Image
+          className="w-48"
           src="/navbar_logo.png"
           alt="Mariale Trinidad"
-          width={299}
-          height={40}
+          width={400}
+          height={200}
           priority
         />
       </Link>
-      <div className="flex gap-6 text-sm font-medium tracking-wide">
-        <span>{pathname}</span>
+      <div className="flex gap-4 md:gap-20 text-md md:text-md font-normal tracking-wide">
         {navbar_paths.map((path) => (
           <Link key={path.url} href={path.url}>
-            <span className={}>{path.label}</span>
+            <span className={cn((pathname === path.url || (pathname.includes("project") && path.label === "SELECTED WORK")) && "underline")}>{path.label}</span>
           </Link>
         ))}
       </div>
