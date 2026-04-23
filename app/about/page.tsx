@@ -2,12 +2,53 @@ import HeroParagraph from "@/components/HeroParagraph";
 import { Client } from "@/lib/types";
 import Image from "next/image";
 
-const clients: Client[] = [
+const clients: Client[] = 
+[
     {
         label: "yellow design | yellow lab Cologne",
         url_text: "yellowdesign.com",
         url: "https://yellowdesign.com"
-    }
+    },
+    {
+        label: "248 Studios",
+        url_text: "248studios.com",
+        url: "https://248studios.com"
+    },
+    {
+        label: "Artletic Studios",
+        url_text: "artletic-studios.com",
+        url: "https://artletic-studios.com"
+    },
+    {
+        label: "vabula",
+        url_text: "vabula.de",
+        url: "https://vabula.de"
+    },
+    {
+        label: "Ensys S.A.C.",
+        url_text: "ensys.pe",
+        url: "https://ensys.pe"
+    },
+    {
+        label: "academa GmbH",
+        url_text: "academa.de",
+        url: "https://academa.de"
+    },
+    {
+        label: "Tullius Bestattungen",
+        url_text: "tullius-bestattungen.de",
+        url: "https://tullius-bestattungen.de"
+    },
+    {
+        label: "Notare in Brühl",
+        url_text: "notare-bruehl.de",
+        url: "https://notare-bruehl.de"
+    },
+    {
+        label: "BaumEntscheid",
+        url_text: "baumentscheid.de",
+        url: "https://baumentscheid.de"
+    },
 ]
 
 const paragraph = "Hey there! I'm Maria, a designer, illustrator and urban researcher interested in how cities can become more caring, inclusive and human. Ready to create something together?"
@@ -38,7 +79,7 @@ export default function About() {
                         <div className="flex flex-col">
                             <span className="font-light">{client.label}</span>
                             <a href={client.url}>
-                                <span className="underline">{client.url_text}</span>
+                                <span className="underline font-light">{client.url_text}</span>
                             </a>
                         </div>
                     ))}
@@ -46,18 +87,18 @@ export default function About() {
                 <div className="flex flex-col gap-4">
                     <span className="font-semibold">LET'S GET IN TOUCH</span>
                     <a href="mailto:maria.atrinidad@gmail.com">
-                        <span className="underline">maria.atrinidad@gmail.com</span>
+                        <span className="underline font-light">maria.atrinidad@gmail.com</span>
                     </a>
                     <div className="flex flex-row gap-1">
-                        <span>Connect on</span>
+                        <span className="font-light">Connect on</span>
                         <a href="https://www.linkedin.com/in/maria-a-trinidad">
-                            <span className="underline">Linkedin</span>
+                            <span className="underline font-light">Linkedin</span>
                         </a>
                     </div>
                     <div className="flex flex-row gap-1">
-                        <span>Follow me on</span>
+                        <span className="font-light">Follow me on</span>
                         <a href="https://www.instagram.com/marialetrinidad">
-                            <span className="underline">Instagram</span>
+                            <span className="underline font-light">Instagram</span>
                         </a>
                     </div>
                 </div>

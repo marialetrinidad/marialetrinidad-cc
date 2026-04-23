@@ -6,6 +6,21 @@ const illustrations: IllustrationImage[] = [
     {
         image_url: "/illustrations/critical_thought.jpg"
     },
+    {
+        image_url: "/illustrations/illustration-bonn-kirschblueten-breitestr.jpg"
+    },
+    {
+        image_url: "/illustrations/illustration-portfolio-summer-euro.jpg"
+    },
+    {
+        image_url: "/illustrations/critical_thought.jpg"
+    },
+    {
+        image_url: "/illustrations/illustration-bonn-kirschblueten-breitestr.jpg"
+    },
+    {
+        image_url: "/illustrations/illustration-portfolio-summer-euro.jpg"
+    },
 ]
 
 export default function Illustration() {
@@ -14,7 +29,7 @@ export default function Illustration() {
 
     return <div className="flex flex-col gap-8 mx-4 mb-24">
         <HeroParagraph paragraph={paragraph} />
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {illustrations.map((illustration) => (
                 <Image key={illustration.image_url} src={illustration.image_url} alt="Illustration" width={600} height={800} />
             ))}
