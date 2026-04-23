@@ -10,27 +10,6 @@ const projects: Project[] = [
       link: "/project/fear",
       paragraph_text: "What does it feel like to move through a city as a woman? Two audio pieces presented at K21 Kunstsammlung Nordrhein-Westfalen explore safety, fear, and the small invisible decisions women make every time they step outside. Research made audible."
    },
-   {
-      big_image_url: "/big_image.png",
-      small_image_url: "/small_image.png",
-      button_text: "LISTEN TO WHAT FEAR SOUNDS LIKE",
-      link: "/fear",
-      paragraph_text: "What does it feel like to move through a city as a woman? Two audio pieces presented at K21 Kunstsammlung Nordrhein-Westfalen explore safety, fear, and the small invisible decisions women make every time they step outside. Research made audible."
-   },
-   {
-      big_image_url: "/big_image.png",
-      small_image_url: "/small_image.png",
-      button_text: "LISTEN TO WHAT FEAR SOUNDS LIKE",
-      link: "/fear",
-      paragraph_text: "What does it feel like to move through a city as a woman? Two audio pieces presented at K21 Kunstsammlung Nordrhein-Westfalen explore safety, fear, and the small invisible decisions women make every time they step outside. Research made audible."
-   },
-   {
-      big_image_url: "/big_image.png",
-      small_image_url: "/small_image.png",
-      button_text: "LISTEN TO WHAT FEAR SOUNDS LIKE",
-      link: "/fear",
-      paragraph_text: "What does it feel like to move through a city as a woman? Two audio pieces presented at K21 Kunstsammlung Nordrhein-Westfalen explore safety, fear, and the small invisible decisions women make every time they step outside. Research made audible."
-   },
 ]
 
 export default function Home() {
