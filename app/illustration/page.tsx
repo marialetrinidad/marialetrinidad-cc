@@ -4,22 +4,58 @@ import Image from "next/image";
 
 const illustrations: IllustrationImage[] = [
     {
-        image_url: "/illustrations/critical_thought.jpg"
+        image_url: "/illustrations/women-city-safety-fear-pink.jpg"
+    },
+    {
+        image_url: "/illustrations/postcard-hands-stitched-handmade.jpg"
+    },
+    {
+        image_url: "/illustrations/mt-illustration-friends-cozy-community.jpg"
+    },
+    {
+        image_url: "/illustrations/mountain-peru-illustration-application-pillow-tufting.jpg"
     },
     {
         image_url: "/illustrations/illustration-bonn-kirschblueten-breitestr.jpg"
     },
     {
-        image_url: "/illustrations/illustration-portfolio-summer-euro.jpg"
+        image_url: "/illustrations/mt-illustration-typography.PNG"
+    },
+    {
+        image_url: "/illustrations/mt-illustration-mothersday.png"
+    },
+    {
+        image_url: "/illustrations/book-cover-design-ireland-cork-shandon.jpg"
+    },
+    {
+        image_url: "/illustrations/sign-museum-signage-sign-information-visualization.jpg"
+    },
+    {
+        image_url: "/illustrations/mt-illustration-mural-cork-ireland-shandon-heritage-art.png"
+    },
+    {
+        image_url: "/illustrations/mt-illustration-family-pencil.jpg"
     },
     {
         image_url: "/illustrations/critical_thought.jpg"
     },
     {
-        image_url: "/illustrations/illustration-bonn-kirschblueten-breitestr.jpg"
+        image_url: "/illustrations/illustration-character-fresh.jpg"
+    },
+    {
+        image_url: "/illustrations/illustration-cologne-art-mural-2.jpg"
     },
     {
         image_url: "/illustrations/illustration-portfolio-summer-euro.jpg"
+    },
+    {
+        image_url: "/illustrations/mt-illustration-brunch-friends.PNG"
+    },
+    {
+        image_url: "/design/mt-illustration-summer-vibes.PNG"
+    },
+    {
+        image_url: "/illustrations/mt-digital-illustration-family.jpg"
     },
 ]
 
