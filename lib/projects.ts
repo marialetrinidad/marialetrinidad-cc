@@ -2,7 +2,7 @@ import { ProjectPage } from "@/lib/types"
 
 export const projects: ProjectPage[] = [
   {
-    slug: "fear",
+    slug: "soundwalk",
     title: "Two audio pieces on the invisible work women do every time they leave the house",
     hero_image_url: "/big_image.png",
     description: {

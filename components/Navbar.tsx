@@ -40,7 +40,7 @@ export default function Navbar() {
           priority
         />
       </Link>
-      <div className="flex gap-4 md:gap-20 text-md md:text-md font-normal tracking-wide">
+      <div className="flex gap-4 md:gap-20 text-md md:text-md font-normal">
         {navbar_paths.map((path) => (
           <Link key={path.url} href={path.url}>
             <span className={cn((pathname === path.url || (pathname.includes("project") && path.label === "SELECTED WORK")) && "underline")}>{path.label}</span>
