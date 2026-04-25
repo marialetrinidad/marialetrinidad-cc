@@ -10,6 +10,7 @@ export type BlockImages = {
    type: "images",
    images: {
       image_url: string | null
+      link: string | null
    }[]
 }
 

@@ -41,7 +41,9 @@ function BlockRenderer({ block }: { block: Block }) {
             <div className="flex flex-row gap-4 mx-12">
                 {block.images.map((img, i) => (
                     img.image_url
-                        ? <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" />
+                        ? img.link
+                            ? <a key={i} href={img.link} className="w-full"><Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" /></a>
+                            : <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" />
                         : <div className="w-full h-auto" />
                 ))}
             </div>

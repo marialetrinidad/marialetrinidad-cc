@@ -28,9 +28,9 @@ export const projects: ProjectPage[] = [
       {
         type: "images",
         images: [
-          { image_url: "/soundwalk/mt-sound-storytelling-k21.png" },
-          { image_url: "/soundwalk/mt-sound-storytelling-k21-art-exhibition.png" },
-          { image_url: "/soundwalk/mt-sound-storytelling-data-visualization.png" },
+          { image_url: "/soundwalk/mt-sound-storytelling-k21.png", link: null },
+          { image_url: "/soundwalk/mt-sound-storytelling-k21-art-exhibition.png", link: null },
+          { image_url: "/soundwalk/mt-sound-storytelling-data-visualization.png", link: null },
         ],
       },
       {
@@ -68,13 +68,13 @@ export const projects: ProjectPage[] = [
       {
         type: "images",
         images: [
-          { image_url: "/co-creation/cocreation-urbanism-ireland-cork-heritage-design.gif" }
+          { image_url: "/co-creation/cocreation-urbanism-ireland-cork-heritage-design.gif", link: null }
         ],
       },
       {
         type: "images",
         images: [
-          { image_url: "/co-creation/cocreation-urbanism-participation-workshop-timeline.jpg" }
+          { image_url: "/co-creation/cocreation-urbanism-participation-workshop-timeline.jpg", link: null }
         ],
       }
     ],
@@ -100,7 +100,7 @@ export const projects: ProjectPage[] = [
       {
         type: "images",
         images: [
-          { image_url: "/zine-sweden/zine-urban-research-design.gif" }
+          { image_url: "/zine-sweden/zine-urban-research-design.gif", link: null }
         ],
       },
       {
@@ -113,7 +113,7 @@ export const projects: ProjectPage[] = [
       {
         type: "images",
         images: [
-          { image_url: "/zine-sweden/collage-zine-method-cocreation-participatory.jpg" }
+          { image_url: "/zine-sweden/collage-zine-method-cocreation-participatory.jpg", link: null }
         ],
       },
     ],
@@ -146,7 +146,7 @@ export const projects: ProjectPage[] = [
       {
         type: "images",
         images: [
-          { image_url: "/threads/mapping-map-intervention-cork-safety-fear-women.jpg" }
+          { image_url: "/threads/mapping-map-intervention-cork-safety-fear-women.jpg", link: null }
         ],
       },
        {
@@ -159,7 +159,7 @@ export const projects: ProjectPage[] = [
       {
         type: "images",
         images: [
-          { image_url: "/threads/mapping-map-digital-interactive-safety-fear-women.png" }
+          { image_url: "/threads/mapping-map-digital-interactive-safety-fear-women.png", link: "https://threads.marialetrinidad.cc" }
         ],
       }
     ],
