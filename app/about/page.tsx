@@ -70,13 +70,13 @@ export default function About() {
             <div className="flex flex-col gap-24">
                 <div className="flex flex-col gap-8">
                     {description_paragraphs.map((description_paragraph) => (
-                        <p className="font-roboto font-light">{description_paragraph}</p>
+                        <p key={description_paragraph} className="font-roboto font-light">{description_paragraph}</p>
                     ))}
                 </div>
                 <div className="flex flex-col gap-4">
                     <span className="font-semibold">CLIENTS</span>
                     {clients.map((client) => (
-                        <div className="flex flex-col">
+                        <div key={client.label} className="flex flex-col">
                             <span className="font-light">{client.label}</span>
                             <a href={client.url}>
                                 <span className="underline font-light">{client.url_text}</span>

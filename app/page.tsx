@@ -73,7 +73,7 @@ export default function Home() {
       <div className="w-full mx-auto flex justify-center">
          <Image className="max-w-[600px]" src="/hero_description.png" alt="Hero" width={2000} height={1000} />
       </div>
-      <div className="flex flex-col gap-16 mt-16">
+      <div className="flex flex-col gap-24 mt-16">
          {projects.map((project) => (
             <WorkPreview key={project.link} project={project} />
          ))}

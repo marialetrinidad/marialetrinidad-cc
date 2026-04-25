@@ -24,7 +24,7 @@ export default function RootLayout({
       lang="en"
       className={`${roboto.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col max-w-[1600px] mx-auto">
         <Navbar />
         {children}
         <Footer />

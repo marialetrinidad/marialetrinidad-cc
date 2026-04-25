@@ -1,5 +1,6 @@
 import { projects } from "@/lib/projects"
 import { Block } from "@/lib/types"
+import { ArrowLeft } from "lucide-react"
 import Image from "next/image"
 import { notFound } from "next/navigation"
 
@@ -11,7 +12,7 @@ function BlockRenderer({ block }: { block: Block }) {
     if (block.type === "paragraph") {
         return (
             <div className="mx-12 flex flex-col gap-4">
-                {block.title && <h3 className="bros-oskon text-3xl">{block.title}</h3>}
+                {block.title && <h3 className="bros-oskon text-4xl">{block.title}</h3>}
                 <p className="font-light max-w-[700px]">{block.paragraph}</p>
             </div>
         )
@@ -28,7 +29,7 @@ function BlockRenderer({ block }: { block: Block }) {
                     }
                 </div>
                 <div className="flex flex-col gap-4 my-auto">
-                    {block.headline && <h3 className="bros-oskon text-3xl">{block.headline}</h3>}
+                    {block.headline && <h3 className="bros-oskon text-4xl">{block.headline}</h3>}
                     {block.paragraph && <p className="font-light">{block.paragraph}</p>}
                 </div>
             </div>
@@ -37,7 +38,7 @@ function BlockRenderer({ block }: { block: Block }) {
 
     if (block.type === "images") {
         return (
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-4 mx-12">
                 {block.images.map((img, i) => (
                     img.image_url
                         ? <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" />
@@ -54,8 +55,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     if (!project) notFound()
 
     return (
-        <div className="flex flex-col gap-16 mx-4 mb-24 mt-24 max-w-[1200px] mx-auto">
-            <h1 className="bros-oskon text-5xl tracking-wide">{project.title}</h1>
+        <div className="flex flex-col gap-16 my-24 mx-auto">
+            <div className="flex flex-col gap-16 mx-12">
+            <h1 className="bros-oskon text-5xl tracking-wide max-w-[75%]">{project.title}</h1>
             <Image
                 src={project.hero_image_url}
                 alt={project.title}
@@ -63,10 +65,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 height={600}
                 className="w-full h-auto"
             />
+            </div>
 
             <div className="flex flex-col gap-4 max-w-[700px] mx-12">
                 <span className="font-medium text-sm">{project.description.headline}</span>
-                <h1 className="bros-oskon text-3xl tracking-wide">{project.description.title}</h1>
+                <h1 className="bros-oskon text-4xl tracking-wide">{project.description.title}</h1>
                 <p className="font-light">{project.description.paragraph_text}</p>
             </div>
 
@@ -74,6 +77,16 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 {project.blocks.map((block, i) => (
                     <BlockRenderer key={i} block={block} />
                 ))}
+            </div>
+            <div className="mx-12 flex flex-col gap-4">
+                <a href="/" className="w-fit">
+                    <div className="flex flex-row items-center gap-2 border-1 border-black rounded-full py-1 px-4 font-medium">
+                        <ArrowLeft className="w-4 h-4" />
+                        <span>
+                            BACK TO OVERVIEW
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
     )
