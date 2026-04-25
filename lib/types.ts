@@ -9,14 +9,14 @@ export interface Project {
 export type BlockImages = {
    type: "images",
    images: {
-      image_url: string
+      image_url: string | null
    }[]
 }
 
 export type BlockImageParagraph = {
    type: "image_paragraph",
    image_orientation: "LEFT" | "RIGHT"
-   image_url: string,
+   image_url: string | null,
    paragraph: string | null,
    headline: string | null
 }

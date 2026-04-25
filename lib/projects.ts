@@ -31,7 +31,7 @@ export const projects: ProjectPage[] = [
           { image_url: "/soundwalk/mt-sound-storytelling-k21.png" },
           { image_url: "/soundwalk/mt-sound-storytelling-k21-art-exhibition.png" },
           { image_url: "/soundwalk/mt-sound-storytelling-data-visualization.png" },
-  ],
+        ],
       },
       {
         type: "paragraph",
@@ -41,43 +41,82 @@ export const projects: ProjectPage[] = [
     ],
   },
 
-   {
+  {
     slug: "co-creation",
     title: "Co-creating Shandon's historic heart",
     hero_image_url: "/co-creation/cocreation-urbanism-testingground-cork-heritage-design.png",
     description: {
-      headline: "EVERYDAY LIFE as expertise",
-      title: "Heard at K21: Düsseldorf's contemporary art museum",
-      paragraph_text: "Both audio pieces were presented at K21 Kunstsammlung Nordrhein-Westfalen, Düsseldorf in April 2026. They were part of the Soundwalk group exhibition by Werk:Klub.",
+      headline: "EVERYDAY LIFE AS EXPERTISE",
+      title: "Feminist urbanism, placemaking and co-creation for the historic core",
+      paragraph_text: "This project explores how public spaces in Shandon, Cork can become more welcoming, connected and reflective of everyday community life. Building on the Shandon Integrated Urban Strategy (2025), it focuses on the streets, routes and shared spaces at the heart of the neighbourhood.",
     },
     blocks: [
       {
         type: "image_paragraph",
         image_orientation: "RIGHT",
-        image_url: "/square.png",
-        headline: "Do you have a minute? On the small things women do to get home safe",
-        paragraph: "Every time a woman goes for a run, she makes decisions you can't see. Which route. What time. Whether to wear headphones – and when to take them off. Whether to call someone, just to have a voice on the other end. This piece puts you inside one of those runs, told entirely through sound and the voice of a friend on the other end of the line.",
+        image_url: "/co-creation/cocreation-urbanism-ireland-cork-heritage-design-shandon.png",
+        headline: "Public space shaped from within: A testing ground, not a finished answer",
+        paragraph: "Through conversations with residents, teenagers, migrants, local businesses and Cork City Council – alongside an exploratory night walk and a co-creation workshop – the project gathers lived experiences of safety, belonging and care. These insights shape a set of design priorities and a long-term roadmap that position Shandon’s historic core as a testing ground for community-led transformation: a place where diverse groups can spend time comfortably, meet one another, and actively shape the area’s future.",
       },
       {
         type: "image_paragraph",
         image_orientation: "LEFT",
-        image_url: "/square.png",
-        headline: "Low notes: A month of movement, translated into sound",
-        paragraph: "Over one month, I recorded every walk and run through Rotterdam: how long, and how safe I felt in my body. This piece translates that data into sound. Each note is one day: its pitch reflects how safe I felt, its length how long I moved. The low, rough tones are the days I wanted to disappear. The clear, high ones are the days I forgot to be careful. The music is not composed; it is documented.",
+        image_url: "/co-creation/cocreation-urbanism-participation-workshop.png",
+        headline: null,
+        paragraph: "Shandon’s historic core holds strong social ties, cultural memory and unrealised potential. Despite years of plans and delays, people remain deeply invested in its future, making it a powerful site for testing community-led change.",
       },
       {
         type: "images",
         images: [
-          { image_url: "/soundwalk/mt-sound-storytelling-k21.png" },
-          { image_url: "/soundwalk/mt-sound-storytelling-k21-art-exhibition.png" },
-          { image_url: "/soundwalk/mt-sound-storytelling-data-visualization.png" },
-  ],
+          { image_url: "/co-creation/cocreation-urbanism-ireland-cork-heritage-design.gif" }
+        ],
       },
       {
-        type: "paragraph",
-        title: "Grounded in research: How fear quietly restructures women's relationship to public space",
-        paragraph: "Both pieces grew out of my master's thesis on feminist urbanism and how women experience safety through everyday mobility in Rotterdam. The research explores how fear operates not just as an emotion but as something that shapes where women go, when, and how; quietly restructuring their relationship to public space. These audio pieces are an attempt to make that research felt rather than just read.",
+        type: "images",
+        images: [
+          { image_url: "/co-creation/cocreation-urbanism-participation-workshop-timeline.jpg" }
+        ],
+      }
+    ],
+  },
+
+  {
+    slug: "zine-sweden",
+    title: "Zine: Shaping Nyhamnen, Malmö",
+    hero_image_url: "/zine-sweden/sketch-malmo-ferry-urban.png",
+    description: {
+      headline: "URBAN DESIGN PROVOCATION",
+      title: "Exploration of memory, maintenance and regeneration",
+      paragraph_text: "Developed during the CityLab II in Malmö, this project examines the transformation of the Nyhamnen ferry terminal: Once the gateway between Malmö and Copenhagen, now a vast, unused landscape caught between demolition and renewal. Over one week, our group observed the site, spoke with historians, librarians, and marine educators, and documented informal uses like Eshing that persist amid planned regeneration.",
+    },
+    blocks: [
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/zine-sweden/sweden-malmo-urban-regeneration-ferry-terminal-nyhamnen.jpg",
+        headline: "The zine as a probe for speculative urban futures",
+        paragraph: "The work culminated in a digital zine that collages field notes, interviews, and archival fragments to reflect Malmö’s layered identities and uncertain futures. Later expanded as part of my individual research, Shaping Nyhamnen reimagines the zine as a cultural probe: a speculative tool to spark dialogue about how cities can embrace incompleteness, care, and co-existence with nature.",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/zine-sweden/zine-urban-research-design.gif" }
+        ],
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: null,
+        headline: "Making as a way of understanding",
+        paragraph: "The zine took shape through cutting, layering, and arranging fragments (maps, interview notes, photographs, and handwritten thoughts). This manual, almost meditative process became a method in itself: revealing the gaps between what we observed and what we understood. Each collage decision reflected our position as outsiders, assembling meaning from partial glimpses, acknowledging that knowledge, like the city, is always unfinished.",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/zine-sweden/collage-zine-method-cocreation-participatory.jpg" }
+        ],
       },
     ],
   },
+
 ]

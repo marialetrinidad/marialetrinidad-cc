@@ -22,7 +22,10 @@ function BlockRenderer({ block }: { block: Block }) {
         return (
             <div className={`mx-12 flex gap-12 items-start ${isLeft ? "flex-row" : "flex-row-reverse"}`}>
                 <div className="w-[45%] shrink-0">
-                    <Image src={block.image_url} alt={block.headline ?? ""} width={800} height={600} className="w-full h-auto" />
+                    {block.image_url
+                        ? <Image src={block.image_url} alt={block.headline ?? ""} width={800} height={600} className="w-full h-auto" />
+                        : <div className="w-full h-auto" />
+                    }
                 </div>
                 <div className="flex flex-col gap-4 my-auto">
                     {block.headline && <h3 className="bros-oskon text-3xl">{block.headline}</h3>}
@@ -36,7 +39,9 @@ function BlockRenderer({ block }: { block: Block }) {
         return (
             <div className="flex flex-row gap-4">
                 {block.images.map((img, i) => (
-                    <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" />
+                    img.image_url
+                        ? <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" />
+                        : <div className="w-full h-auto" />
                 ))}
             </div>
         )

@@ -22,7 +22,7 @@ const illustrations: IllustrationImage[] = [
         image_url: "/illustrations/mt-illustration-typography.PNG"
     },
     {
-        image_url: "/illustrations/mt-illustration-mothersday.png"
+        image_url: "/illustrations/mt-illustration-mothersday.PNG"
     },
     {
         image_url: "/illustrations/book-cover-design-ireland-cork-shandon.jpg"
