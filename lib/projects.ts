@@ -119,4 +119,50 @@ export const projects: ProjectPage[] = [
     ],
   },
 
+   {
+    slug: "threads",
+    title: "threads: weaving care into the urban fabric",
+    hero_image_url: "/threads/illustration-safety-women-fear-city-exclusion.png",
+    description: {
+      headline: "PARTICIPATORY MAPPING",
+      title: "Urban design meets feminist theory",
+      paragraph_text: "Emerging as an interactive digital project, threads collects and visualizes personal and community-submitted narratives of safety and unease. Based on the understanding that experiences of vulnerability are shaped by identity, history, and structures of belonging and exclusion, Threads becomes an ongoing, collective conversation. Through small-scale, site-specific interventions, it maps the gaps – spatial, emotional, and social – that shape how public space is experienced.",
+    },
+    blocks: [
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/threads/design-ux-web-brand-branding-mobile.png",
+        headline: "A living, open archive of everyday urban experiences",
+        paragraph: "threads is made possible through the contributions of women, gender-diverse individuals, and local residents willing to share their truths. By bringing forward the often invisible, emotional, and intersectional geographies of urban life, it invites us to look closer, walk slower, and imagine public space as a place of presence, not surveillance. Anyone can add their own story or place to the map from any device, anywhere – keeping the archive alive, evolving, and collective. This project is not authored in isolation: It evolved through constant dialogue: with residents, students, runners, dog walkers, and the city itself. By returning to the street with draft interventions and listening again, the design became not only site-specific but socially rooted.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/threads/design-postcard-illustration-branding-gift.png",
+        headline: "Reclaiming fear through thread and image",
+        paragraph: "through these stitched postcards, threads transforms stories of unease and danger into something tangible, visible, and shared. By illustrating places of vulnerability, we reclaim space, give form to the often unspoken, and invite others to see, feel, and respond: Private fear becomes a collective narrative, stitched into the urban fabric as an act of care, memory, and quiet resistance.",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/threads/mapping-map-intervention-cork-safety-fear-women.jpg" }
+        ],
+      },
+       {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/threads/cork-safety-city-urbanism-women-feminist-intervention.png",
+        headline: "Why threads? Why here?",
+        paragraph: "Washington Street is a complex space: Alive with cafés, nightlife, and cultural activity, but also marked by surveillance, traffic, and underused public infrastructure. This duality served as an ideal context for experimenting with feminist frameworks to reimagine the street as one of care and inclusion.",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/threads/mapping-map-digital-interactive-safety-fear-women.png" }
+        ],
+      }
+    ],
+  },
+
 ]
