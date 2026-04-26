@@ -165,4 +165,59 @@ export const projects: ProjectPage[] = [
     ],
   },
 
+{
+    slug: "home",
+    title: "25m² of creative living in Cologne",
+    hero_image_url: "/home/interior-design-cozy-home-modern-mid-century-vintage.jpg",
+    description: {
+      headline: "LIVING LARGE IN A SMALL SPACE",
+      title: "A personalized interior for a seamless daily routine",
+      paragraph_text: "Living in just 25m², I embraced the challenge of making a small space feel open and functional. Thoughtfully designed to match my daily routine, the apartment became a cozy and modern sanctuary, welcoming all who entered. Every corner reCects my personal touch, blending practicality with warmth, turning it into more than just a living space: it was home.",
+    },
+    blocks: [
+      {
+        type: "images",
+        images: [
+          { image_url: "/home/interior-design-cozy-scandinavian.jpg", link: null },
+          { image_url: "/home/interior-design-cozy-art.jpg", link: null },
+          { image_url: "/home/interior-design-cozy-altbau-europe.jpg", link: null },
+        ],
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/home/plants_square.jpg",
+        headline: "Nurturing green life",
+        paragraph: "This is where I Enally discovered the art of propagating plants and keeping them thriving. Their vibrant presence truly brings the space to life, creating a warm and inviting atmosphere.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/home/on_square.jpg",
+        headline: "Dynamic essence",
+        paragraph: "More passions intersecting",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/home/fassade_komplett_square.jpg",
+        headline: "Ein Stück Köln: my piece of Cologne",
+        paragraph: "This mural was meant to bring a piece of my Veedel to life: highlighting the charm of my neighborhood on the facade of an altbau building. Though it never came to be due to *Denkmalschutz*",
+      },
+      {
+        type: "paragraph",
+        title: "Browse more illustrations",
+        paragraph: null,
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/illustrations/mt-illustration-friends-cozy-community.jpg", link: "/illustration" },
+          { image_url: "/home/illustration-cologne-art.jpg", link: "/illustration" },
+          { image_url: "/illustrations/women-city-safety-fear-pink.jpg", link: "/illustration" },
+        ],
+      },
+    ],
+  },
+
 ]
