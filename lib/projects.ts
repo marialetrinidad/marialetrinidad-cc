@@ -207,7 +207,7 @@ export const projects: ProjectPage[] = [
       {
         type: "paragraph",
         title: "Browse more illustrations",
-        paragraph: null,
+        paragraph: "Browse more illustrations",
       },
       {
         type: "images",
@@ -215,6 +215,39 @@ export const projects: ProjectPage[] = [
           { image_url: "/illustrations/mt-illustration-friends-cozy-community.jpg", link: "/illustration" },
           { image_url: "/home/illustration-cologne-art.jpg", link: "/illustration" },
           { image_url: "/illustrations/women-city-safety-fear-pink.jpg", link: "/illustration" },
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "diversity",
+    title: "Pop-up Beyond Our Diveristy Issues *revisited*",
+    hero_image_url: "/design/mt-popup-diversity-exhibiton-guerrilla.png",
+    description: {
+      headline: "DESIGN AWARD ENTRY",
+      title: "Breaking down prejudices through empathy",
+      paragraph_text: "Bridging inequalities through empathy, the pop-up dismantles everyday discrimination: created after interviews with people from different backgrounds, the stories shared within create a deep connection. Using versatile, eco-friendly materials, the modular architecture promotes inclusivity and diverse voices. It sensitises visitors to unconscious bias and empowers them to take a stand against discrimination.",
+    },
+    blocks: [
+      {
+        type: "images",
+        images: [
+          { image_url: "/diversity/poster-diversity-popup-guerrilla-graphic-illustration.jpg", link: null },
+          { image_url: "/diversity/popup-guerrilla-graphic-spatial-urban-intervention.jpg", link: null },
+          { image_url: "/diversity/accessible-user-women-storytelling-colorful-pride.jpg", link: null },
+        ],
+      },
+      {
+        type: "paragraph",
+        title: "How might we create a better *human* experience for all?",
+        paragraph: "This pop-up event is designed around this very question. (Un)conscious prejudice, discrimination and microaggressions have consequences; even if they were not intended. „Beyond our diversity issues“ addresses root causes: Prejudice and intersectionality; the consequences: Microaggressions and discrimination – as well as on the contribution of each of us for the future.",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/diversity/2popup-guerrilla-graphic-spatial-urban-intervention-equility.png", link: "/illustration" },
+          { image_url: "/diversity/popup-guerrilla-graphic-urban-intervention-equility.svg", link: "/illustration" },
         ],
       },
     ],
