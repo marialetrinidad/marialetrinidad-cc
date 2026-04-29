@@ -49,6 +49,22 @@ function BlockRenderer({ block }: { block: Block }) {
             </div>
         )
     }
+
+    if (block.type === "iframe") {
+    return (
+        <div className="mx-12 justify-center">
+            <div className="w-full aspect-square md:aspect-[16/7]">
+                <iframe
+                    src={block.src}
+                    className="w-full h-full"
+                    style={{ border: "none" }}
+                    allow="vr; gyroscope; accelerometer"
+                    loading="lazy"
+                />
+            </div>
+        </div>
+        )
+    }
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {

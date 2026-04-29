@@ -253,4 +253,97 @@ export const projects: ProjectPage[] = [
     ],
   },
 
+  {
+    slug: "office",
+    title: "Work Habitat: Modular office strategy feat academa.de",
+    hero_image_url: "/design/mt-workhabitat-key.jpg",
+    description: {
+      headline: "BACHELOR THESIS IN STRATEGIC DESIGN",
+      title: "Work Habitat feat academa",
+      paragraph_text: "'Work Habitat' is a brand experience promotes team building and identifcation with the company. The modular components can be used sustainably and flexibly despite changes, relocations or unexpectedly rapid developments. A fast-moving world requires an appropriate new work environments that adapts to it.",
+    },
+    blocks: [
+      {
+        type: "iframe",
+        src: "https://momento360.com/e/u/c48a3ebdbdab408e96240e76374210d2?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/office/2strategy-design-scalable-startup-interior-modular-new-work.svg", link: null },
+        ],
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/office/render-strategy-design-scalable-startup-interior-modular-new-work.jpg",
+        headline: "Crafting dynamic workspaces",
+        paragraph: "Work Habitat adapts to team members by maintaining a holistic view of the offce system. It also provides a seamless blend of digital and analog work environments and offers a welcoming environment of different ways to work: From deep focus to collaboration and the encouragement of casual encounters.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/design/mt-workhabitat-design.gif",
+        headline: "A new visual brand identity",
+        paragraph: "Especially for a young brand like academa, recognition value is very important. Here are a few impressions of the new corporate design.",
+      },
+      {
+        type: "paragraph",
+        title: "Modular components",
+        paragraph: "that scale with your startup",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/office/process-strategy-design-scalable-startup-interior-modular-new-work.svg", link: null },
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "exhibition",
+    title: "Pop up event 'Beyond our Diveristy Issues'",
+    hero_image_url: "/exhibition/pop-up-exhibition-diversity-design-spatial-urban.jpg",
+    description: {
+      headline: "STUDENT PROJECT",
+      title: "Sheding light on discrimination, prejudie and privilege",
+      paragraph_text: "A hybrid solution to discrimination and microaggressions in everyday life: Designing a series of interactive pop-up events to be human with each other",
+    },
+    blocks: [
+      {
+        type: "images",
+        images: [
+          { image_url: "/exhibition/pop-up-event-design-outdoor.jpg", link: null },
+          { image_url: "/exhibition/mt-beyond-event-exhibition-connected.png", link: null },
+        ],
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/exhibition/mt-diversity-digital.jpg",
+        headline: "Immersive storytelling",
+        paragraph: "Reduce prejudice through empathy by putting a face to the victims of discrimination. Emily, Alejandra, Louisa and Kendy tell inspiring, immersive stories in the exhibition.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/exhibition/mt-beyond-digital-illustration.png",
+        headline: "Strategic corporate design",
+        paragraph: "The goal for the corporate design was to create an iconic brand identity through color and typography. This extends to all prints and online presence, ensuring a visually cohesive appearance both online and offline. Illustrated representations enrich the visual identity with a deffned graphic language.",
+      },
+      {
+        type: "paragraph",
+        title: "Here are some impressions of the event",
+        paragraph: "you were practically there!",
+      },
+      {
+        type: "images",
+        images: [
+          { image_url: "/exhibition/diveristy-mockup-popup-viral-selfie.jpg", link: null },
+        ],
+      },
+    ],
+  },
+
 ]

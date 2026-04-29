@@ -28,7 +28,12 @@ export type BlockParagraph = {
    paragraph: string
 }
 
-export type Block = BlockImages | BlockImageParagraph | BlockParagraph
+export type BlockIframe = {
+   type: "iframe",
+   src: string
+}
+
+export type Block = BlockImages | BlockImageParagraph | BlockParagraph | BlockIframe
 
 export interface ProjectPage {
    slug: string

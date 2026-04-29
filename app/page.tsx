@@ -49,7 +49,7 @@ const projects: Project[] = [
       big_image_url: "/design/mt-illustration-typography.jpg",
       small_image_url: "/design/mt-illustration-summer-vibes.PNG",
       button_text: "EXPLORE VIBRANT STORIES",
-      link: "/project/illustration",
+      link: "/illustration",
       paragraph_text: "A journey of creativity and self-expression through vibrant digital art, where each piece tells a unique story."
    },
    {
