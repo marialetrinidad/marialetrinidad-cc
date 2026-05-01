@@ -10,21 +10,21 @@ export default function WorkPreview({ project }: WorkPreviewProps) {
   return (
     <section className="w-full mx-auto flex justify-center">
       <div className="w-full flex flex-col gap-4">
-        <div className="flex flex-row gap-8 items-end">
-          <div className="w-[65%]">
+        <div className="flex flex-row gap-4 md:gap-8 items-end">
+          <div className="w-full md:w-[65%]">
             <a href={project.link} className="w-fit">
               <Image src={project.big_image_url} alt={project.button_text} width={720} height={576} className="w-full h-auto" />
             </a>
           </div>
-          <div className="w-[18%] mb-8">
+          <div className="hidden md:block md:w-[18%] md:mb-8">
             <Image src={project.small_image_url} alt={project.button_text} width={216} height={270} className="w-full h-auto" />
           </div>
         </div>
-        <div className="mx-6 flex flex-col gap-4">
+        <div className="mx-4 md:mx-6 flex flex-col gap-4">
           <a href={project.link} className="w-fit">
             <div className="border-1 border-black rounded-full py-1 px-4 font-medium">{project.button_text}</div>
           </a>
-          <p className="w-[50%] font-light">{project.paragraph_text}</p>
+          <p className="w-full md:w-[50%] font-light">{project.paragraph_text}</p>
         </div>
       </div>
     </section>

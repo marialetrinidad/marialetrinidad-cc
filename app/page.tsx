@@ -69,11 +69,11 @@ const projects: Project[] = [
 ]
 
 export default function Home() {
-   return <div className="flex flex-col gap-8 mt-16 mb-24">
-      <div className="w-full mx-auto flex justify-center">
-         <Image className="max-w-[600px]" src="/hero_description.png" alt="Hero" width={2000} height={1000} />
+   return <div className="flex flex-col gap-8 mt-8 md:mt-16 mb-16 md:mb-24">
+      <div className="w-full mx-auto flex justify-center px-4 sm:px-0">
+         <Image className="w-full sm:max-w-[600px]" src="/hero_description.png" alt="Hero" width={2000} height={1000} />
       </div>
-      <div className="flex flex-col gap-24 mt-16">
+      <div className="flex flex-col gap-16 md:gap-24 mt-8 md:mt-16">
          {projects.map((project) => (
             <WorkPreview key={project.link} project={project} />
          ))}

@@ -56,3 +56,8 @@ export interface Client {
    url_text: string
    url: string
 }
+
+export interface LegalParagraph {
+   title: string
+   paragraphs: string[]
+}

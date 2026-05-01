@@ -65,8 +65,8 @@ const description_paragraphs: string[] = [
 export default function About() {
     return <div className="flex flex-col gap-8 mx-4 mb-24">
         <HeroParagraph paragraph={paragraph} />
-        <div className="mx-4 grid grid-cols-2 gap-4">
-            <Image className="rotate-180" src="/portrait.jpg" alt="Portrait" width={600} height={1000} />
+        <div className="mx-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Image className="rotate-180 w-full h-auto" src="/portrait.jpg" alt="Portrait" width={600} height={1000} />
             <div className="flex flex-col gap-24">
                 <div className="flex flex-col gap-8">
                     {description_paragraphs.map((description_paragraph) => (
