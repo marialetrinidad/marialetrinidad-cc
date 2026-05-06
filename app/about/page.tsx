@@ -35,6 +35,11 @@ const clients: Client[] =
         url: "https://academa.de"
     },
     {
+        label: "Snor Studio",
+        url_text: "snor_studio",
+        url: "https://www.instagram.com/snor_studio"
+    },
+    {
         label: "Tullius Bestattungen",
         url_text: "tullius-bestattungen.de",
         url: "https://tullius-bestattungen.de"

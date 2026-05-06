@@ -5,12 +5,15 @@ const paragraph = "Datenschutz"
 
 const legal_paragraphs: LegalParagraph[] = [
     {
-        title: "Überschrift",
+        title: "Datenschutzerklärung",
         paragraphs: [
-            "Absatz 1",
-            "Absatz 2",
-            "Absatz 3",
-            "Absatz 4"
+            "Der Schutz Ihrer persönlichen Daten ist mir wichtig. Diese Website kann grundsätzlich ohne Angabe personenbezogener Daten genutzt werden.",
+            "1. Verantwortliche Person:",
+            "Maria Alejandra Trinidad Avila maria.atrinidad@gmail.com",
+            "2. Hosting: Diese Website wird bei einem externen Dienstleister (Webhoster) gehostet. Beim Aufruf der Website werden automatisch Informationen durch den Server erfasst (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp). Diese Daten dienen der technischen Bereitstellung und Sicherheit der Website.",
+            "3. Kontaktaufnahme: Wenn Sie mich per E-Mail kontaktieren, werden Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.",
+            "4. Cookies: Diese Website verwendet ggf. technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind.",
+            "5. Ihre Rechte: Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer Daten. Bei Fragen können Sie sich jederzeit per E-Mail an mich wenden."
         ]
     }
 ]
@@ -31,6 +34,15 @@ export default function Datenschutz() {
                     ))}
                 </div>
             </div>
+        
+             <div className="mx-4 md:mx-12 flex flex-col gap-4 mt-12">
+                <a href="/" className="w-fit">
+                    <div className="flex flex-row items-center gap-2 border border-black rounded-full py-1 px-4 font-medium">
+                        <span>← BACK TO OVERVIEW</span>
+                    </div>
+                </a>
+            </div>
+
         </div>
     )
 }

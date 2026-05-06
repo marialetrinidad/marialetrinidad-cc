@@ -14,7 +14,7 @@ export const projects: ProjectPage[] = [
       {
         type: "image_paragraph",
         image_orientation: "RIGHT",
-        image_url: "/square.png",
+        image_url: "/soundwalk/sound-storytelling-exhibition.jpg",
         headline: "Do you have a minute? On the small things women do to get home safe",
         paragraph: "Every time a woman goes for a run, she makes decisions you can't see. Which route. What time. Whether to wear headphones – and when to take them off. Whether to call someone, just to have a voice on the other end. This piece puts you inside one of those runs, told entirely through sound and the voice of a friend on the other end of the line.",
       },
