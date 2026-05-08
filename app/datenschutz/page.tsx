@@ -8,8 +8,7 @@ const legal_paragraphs: LegalParagraph[] = [
         title: "Datenschutzerklärung",
         paragraphs: [
             "Der Schutz Ihrer persönlichen Daten ist mir wichtig. Diese Website kann grundsätzlich ohne Angabe personenbezogener Daten genutzt werden.",
-            "1. Verantwortliche Person:",
-            "Maria Alejandra Trinidad Avila maria.atrinidad@gmail.com",
+            "1. Verantwortliche Person: Maria Alejandra Trinidad Avila maria.atrinidad@gmail.com",
             "2. Hosting: Diese Website wird bei einem externen Dienstleister (Webhoster) gehostet. Beim Aufruf der Website werden automatisch Informationen durch den Server erfasst (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp). Diese Daten dienen der technischen Bereitstellung und Sicherheit der Website.",
             "3. Kontaktaufnahme: Wenn Sie mich per E-Mail kontaktieren, werden Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.",
             "4. Cookies: Diese Website verwendet ggf. technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind.",

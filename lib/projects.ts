@@ -38,6 +38,14 @@ export const projects: ProjectPage[] = [
         title: "Grounded in research: How fear quietly restructures women's relationship to public space",
         paragraph: "Both pieces grew out of my master's thesis on feminist urbanism and how women experience safety through everyday mobility in Rotterdam. The research explores how fear operates not just as an emotion but as something that shapes where women go, when, and how; quietly restructuring their relationship to public space. These audio pieces are an attempt to make that research felt rather than just read.",
       },
+      {
+        type: "images",
+        images: [
+          { image_url: "/soundwalk/sound-storytelling-exhibition-art.jpg", link: null },
+          { image_url: "/soundwalk/sound-storytelling-exhibition-art-museum-typography.jpg", link: null },
+          { image_url: "/soundwalk/art-storytelling-exhibition-museum.jpg", link: null },
+        ],
+      },
     ],
   },
 
