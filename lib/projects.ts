@@ -213,9 +213,8 @@ export const projects: ProjectPage[] = [
         paragraph: "This mural was meant to bring a piece of my Veedel to life: highlighting the charm of my neighborhood on the facade of an altbau building. Though it never came to be due to *Denkmalschutz*",
       },
       {
-        type: "paragraph",
+        type: "headline",
         title: "Browse more illustrations",
-        paragraph: "Browse more illustrations",
       },
       {
         type: "images",
@@ -341,9 +340,8 @@ export const projects: ProjectPage[] = [
         paragraph: "The goal for the corporate design was to create an iconic brand identity through color and typography. This extends to all prints and online presence, ensuring a visually cohesive appearance both online and offline. Illustrated representations enrich the visual identity with a deffned graphic language.",
       },
       {
-        type: "paragraph",
+        type: "headline",
         title: "Here are some impressions of the event",
-        paragraph: "you were practically there!",
       },
       {
         type: "images",
