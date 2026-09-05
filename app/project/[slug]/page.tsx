@@ -18,6 +18,14 @@ function BlockRenderer({ block }: { block: Block }) {
         )
     }
 
+    if (block.type === "headline") {
+        return (
+            <div className="mx-4 md:mx-12 mb-[-40px] md:mb-[-64px]">
+                <h3 className="bros-oskon text-2xl md:text-4xl">{block.title}</h3>
+            </div>
+        )
+    }
+
     if (block.type === "image_paragraph") {
         const isLeft = block.image_orientation === "LEFT"
         return (
@@ -42,9 +50,9 @@ function BlockRenderer({ block }: { block: Block }) {
                 {block.images.map((img, i) => (
                     img.image_url
                         ? img.link
-                            ? <a key={i} href={img.link} className="w-full"><Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" /></a>
-                            : <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" />
-                        : <div className="w-full h-auto" />
+                            ? <a key={i} href={img.link} className="w-full min-w-0"><Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto" /></a>
+                            : <Image key={i} src={img.image_url} alt="" width={800} height={600} className="w-full h-auto min-w-0" />
+                        : <div className="w-full min-w-0" />
                 ))}
             </div>
         )
@@ -73,7 +81,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     if (!project) notFound()
 
     return (
-        <div className="flex flex-col gap-16 my-12 md:my-24 mx-auto">
+        <div className="flex flex-col gap-16 my-12 md:my-24">
             <div className="flex flex-col gap-8 md:gap-16 mx-4 md:mx-12">
             <h1 className="bros-oskon text-3xl md:text-5xl tracking-wide max-w-full md:max-w-[75%]">{project.title}</h1>
             <Image

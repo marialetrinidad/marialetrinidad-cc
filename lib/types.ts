@@ -28,12 +28,17 @@ export type BlockParagraph = {
    paragraph: string
 }
 
+export type BlockHeadline = {
+   type: "headline",
+   title: string
+}
+
 export type BlockIframe = {
    type: "iframe",
    src: string
 }
 
-export type Block = BlockImages | BlockImageParagraph | BlockParagraph | BlockIframe
+export type Block = BlockImages | BlockImageParagraph | BlockParagraph | BlockHeadline | BlockIframe
 
 export interface ProjectPage {
    slug: string
