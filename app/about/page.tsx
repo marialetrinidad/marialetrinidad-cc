@@ -56,14 +56,14 @@ const clients: Client[] =
     },
 ]
 
-const paragraph = "Hey there! I'm Maria, a designer, illustrator and urban researcher interested in how cities can become more caring, inclusive and human. Ready to create something together?"
+const paragraph = "Hi there! I'm Mariale and I turn research into stories people can actually feel. Ready to create something together?"
 
 const description_paragraphs: string[] = [
-    "My background is in Product Design (BA, University of Applied Sciences Aachen), where I first learned to design objects and experiences that put people at the center. Over time, my curiosity expanded from designing products to thinking about the spaces and systems that shape everyday life in cities.",
-    "I’m currently pursuing a Joint Master’s in Redesigning Post-Industrial Cities, a multidisciplinary programme across Germany, Ireland and the Netherlands. My work explores feminist urbanism, participatory design and placemaking as ways for communities to reclaim and co-create their public spaces.",
-    "With experience across spatial, product, UX and integrated design, I enjoy moving between digital and physical environments. I’m especially interested in translating everyday experiences into visual and spatial strategies—through mapping, storytelling, and collaborative design processes.",
-    "Curious by nature and passionate about collaboration, I see design as a tool for connection, empathy and care — a way to shape environments that truly reflect the people who inhabit them.",
-    "If you’d like to collaborate, exchange ideas, or talk about cities and belonging, I’d love to hear from you."
+    "I'm a designer, illustrator, urban researcher and I turn research into stories people can feel.",
+    "With a background in Product Design (BA, University of Applied Sciences Aachen) and a MSc in Redesigning Post-Industrial Cities, a multidisciplinary programme across Germany, Ireland and the Netherlands; I work at the intersection of design, research, and communication.",
+    "My work is about taking complex ideas, data, and lived experiences and making them visible, legible, and compelling for broader audiences. I do this through illustration, data visualization, mapping, zines, booklets, websites, and audio storytelling. And moving between digital and physical formats depending on what the story needs.",
+    "I work with researchers, institutions, organizations, and communities who have something important to say and need help saying it in a way that reaches beyond the page.",
+    "If you have a project, a dataset, a report, or a research process that deserves a wider audience, I'd love to hear about it!"
 ]
 
 
@@ -90,6 +90,15 @@ export default function About() {
                     ))}
                 </div>
                 <div className="flex flex-col gap-4">
+                    <span className="font-semibold">CONFERENCES</span>
+                    <div className="flex flex-row gap-1">
+                        <span className="font-light">threads: cities of care | RGS-IBG Annual International Conference, London, September 2026. Session: Designing Pluriversality in Times of Crisis: Envisioning Spatial Justice Through Alternative Cartographies.</span>
+                    </div>
+                    <div className="flex flex-row gap-1">
+                        <span className="font-light">Everyday Life as Expertise: Feminist Co-Creation in a Historic Neighbourhood | Future City Regions Conference, RWTH Aachen, November 2026.</span>
+                    </div>
+                </div>
+                 <div className="flex flex-col gap-4">
                     <span className="font-semibold">LET'S GET IN TOUCH</span>
                     <a href="mailto:maria.atrinidad@gmail.com">
                         <span className="underline font-light">maria.atrinidad@gmail.com</span>
@@ -106,8 +115,8 @@ export default function About() {
                             <span className="underline font-light">Instagram</span>
                         </a>
                     </div>
-                </div>
-            </div>
+             </div>
         </div>
+    </div>
     </div>
 }
