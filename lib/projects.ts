@@ -2,6 +2,52 @@ import { ProjectPage } from "@/lib/types"
 
 export const projects: ProjectPage[] = [
   {
+    slug: "running",
+    title: "Running Anyway: the safety work that women do without naming",
+    hero_image_url: "/running/running-rotterdam-postcard-sketch-women-feminist-city-urban.png",
+    description: {
+      headline: "APPLIED RESEARCH",
+      title: "Feminist urban research on safety and movement",
+      paragraph_text: "This project began as a master's thesis in Redesigning Post-Industrial Cities at Erasmus University Rotterdam, and grew into a three-part podcast and a plain-language booklet. Grounded in audio diaries, route maps, and conversations with women runners, it examines how migration background, familiarity, and language shape women's experience of safety while running; and why that safety work so rarely gets named as such.",
+    },
+    blocks: [
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/running/research-mobility-urbanism-geography-chart-data-visualization-neatherlands.png",
+        headline: "The normalization gap: Why every runner rated her run *almost* perfectly safe",
+        paragraph: "Every woman in this study rated her runs 4 or 5 out of 5 for safety, while describing, in the same breath, a continuous stream of adjustments of route, timing, clothing, and headphone volume she never once named as safety work. That gap, between what women do and what they think is worth mentioning, became the project's central finding.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/running/research-mobility-urbanism-geography-chart-data-visualization-sketch-illustration-faces-women-diversity.png",
+        headline: "Ten women and months of data",
+        paragraph: "The project is built on audio diaries, pre- and post-run check-ins, route maps, and follow-up conversations with ten women of different migration backgrounds, lengths of residence, and language repertoires. Analyzed through a feminist, intersectional framework connecting embodied mobility, safety negotiation, and positionality.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "RIGHT",
+        image_url: "/running/podcast-scene-aesthetic-hand-mockup-design-cover-graphic-corporate-brand.png",
+        headline: "Told out loud. A three-part podcast built from the research itself",
+        paragraph: "Running Anyway is a three-episode audio series, part of Reimagining Cities, built from the same diaries and conversations behind the thesis, letting the women's own voices carry findings that data alone can't fully hold.",
+      },
+      {
+        type: "image_paragraph",
+        image_orientation: "LEFT",
+        image_url: "/running/booklet-zine-design-graphic-design-layout-typography-logo-university-rotterdam-thesis-master-dissertation.png",
+        headline: "Written to be shared. A plain-language booklet, made for the people who lived it",
+        paragraph: "Alongside the academic thesis, a short booklet translates the findings into plain language, no jargon.",
+      },
+      {
+        type: "paragraph",
+        title: "Research is only useful if it reaches people",
+        paragraph: "This project reflects a belief that runs through all of my work: that research too often stops at the people who already have access to it. Running Anyway was built, from the start, to also exist as something a participant, a neighbor, or a stranger on the street could actually pick up.",
+      },
+    ],
+  },
+  
+  {
     slug: "soundwalk",
     title: "Two audio pieces on the invisible work women do every time they leave the house",
     hero_image_url: "/soundwalk/mt-sound-storytelling-running.png",

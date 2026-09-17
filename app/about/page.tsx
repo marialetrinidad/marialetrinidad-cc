@@ -92,10 +92,10 @@ export default function About() {
                 <div className="flex flex-col gap-4">
                     <span className="font-semibold">CONFERENCES</span>
                     <div className="flex flex-row gap-1">
-                        <span className="font-light">threads: cities of care | RGS-IBG Annual International Conference, London, September 2026. Session: Designing Pluriversality in Times of Crisis: Envisioning Spatial Justice Through Alternative Cartographies.</span>
+                        <span className="font-light">threads: cities of care | RGS-IBG Annual International Conference, London, September 2026. Session: Designing Pluriversality in Times of Crisis: Envisioning Spatial Justice Through Alternative Cartographies</span>
                     </div>
                     <div className="flex flex-row gap-1">
-                        <span className="font-light">Everyday Life as Expertise: Feminist Co-Creation in a Historic Neighbourhood | Future City Regions Conference, RWTH Aachen, November 2026.</span>
+                        <span className="font-light">Everyday Life as Expertise: Feminist Co-Creation in a Historic Neighbourhood | Future City Regions Conference, RWTH Aachen, November 2026</span>
                     </div>
                 </div>
                  <div className="flex flex-col gap-4">

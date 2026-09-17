@@ -4,6 +4,13 @@ import Image from "next/image"
 
 const projects: Project[] = [
    {
+      big_image_url: "/running/data-visualization-running-rotterdam-postcard-sketch-women-feminist-city-urban.png",
+      small_image_url: "/running/podcast-running-rotterdam-sketch-women-feminist-city-urban.png",
+      button_text: "MEET THE WOMEN ‘running anyway’",
+      link: "/project/running",
+      paragraph_text: "Why do women rate their runs almost perfectly safe, while quietly adjusting their route, their pace, their clothes, every single time? Running Anyway follows women running in Rotterdam; turned into a podcast, a plain-language booklet, and a piece of academic research"
+   },
+   {
       big_image_url: "/big_image.png",
       small_image_url: "/small_image.png",
       button_text: "LISTEN TO WHAT FEAR SOUNDS LIKE",
