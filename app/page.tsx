@@ -6,7 +6,7 @@ const projects: Project[] = [
    {
       big_image_url: "/running/data-visualization-running-rotterdam-postcard-sketch-women-feminist-city-urban.png",
       small_image_url: "/running/podcast-running-rotterdam-sketch-women-feminist-city-urban.png",
-      button_text: "MEET THE WOMEN ‘running anyway’",
+      button_text: "MEET THE WOMEN RUNNING ANYWAY",
       link: "/project/running",
       paragraph_text: "Why do women rate their runs almost perfectly safe, while quietly adjusting their route, their pace, their clothes, every single time? Running Anyway follows women running in Rotterdam; turned into a podcast, a plain-language booklet, and a piece of academic research"
    },
