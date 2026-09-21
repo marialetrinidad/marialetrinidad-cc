@@ -20,6 +20,8 @@ export type BlockImageParagraph = {
    image_url: string | null,
    paragraph: string | null,
    headline: string | null
+   button_text?: string,
+   button_link?: string
 }
 
 export type BlockParagraph = {

@@ -27,22 +27,36 @@ function BlockRenderer({ block }: { block: Block }) {
     }
 
     if (block.type === "image_paragraph") {
-        const isLeft = block.image_orientation === "LEFT"
-        return (
-            <div className={`mx-4 md:mx-12 flex flex-col gap-8 md:gap-12 items-start ${isLeft ? "md:flex-row" : "md:flex-row-reverse"}`}>
-                <div className="w-full md:w-[45%] shrink-0">
-                    {block.image_url
-                        ? <Image src={block.image_url} alt={block.headline ?? ""} width={800} height={600} className="w-full h-auto" />
-                        : <div className="w-full h-auto" />
-                    }
-                </div>
-                <div className="flex flex-col gap-4 md:my-auto">
-                    {block.headline && <h3 className="bros-oskon text-2xl md:text-4xl">{block.headline}</h3>}
-                    {block.paragraph && <p className="font-light">{block.paragraph}</p>}
-                </div>
+    const isLeft = block.image_orientation === "LEFT"
+    return (
+        <div className={`mx-4 md:mx-12 flex flex-col gap-8 md:gap-12 items-start ${isLeft ? "md:flex-row" : "md:flex-row-reverse"}`}>
+            <div className="w-full md:w-[45%] shrink-0">
+                {block.image_url ? (
+                    block.button_link ? (
+                        <a href={block.button_link} target="_blank" rel="noopener noreferrer">
+                            <Image src={block.image_url} alt={block.headline ?? ""} width={800} height={600} className="w-full h-auto" />
+                        </a>
+                    ) : (
+                        <Image src={block.image_url} alt={block.headline ?? ""} width={800} height={600} className="w-full h-auto" />
+                    )
+                ) : (
+                    <div className="w-full h-auto" />
+                )}
             </div>
-        )
-    }
+            <div className="flex flex-col gap-4 md:my-auto">
+                {block.headline && <h3 className="bros-oskon text-2xl md:text-4xl">{block.headline}</h3>}
+                {block.paragraph && <p className="font-light">{block.paragraph}</p>}
+                {block.button_text && block.button_link && (
+                    <a href={block.button_link} target="_blank" rel="noopener noreferrer" className="w-fit">
+                        <div className="flex flex-row items-center gap-2 border border-black rounded-full py-1 px-4 font-medium">
+                            <span>{block.button_text.toUpperCase()}</span>
+                        </div>
+                    </a>
+                )}
+            </div>
+        </div>
+    )
+}
 
     if (block.type === "images") {
         return (

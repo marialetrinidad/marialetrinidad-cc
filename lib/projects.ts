@@ -31,6 +31,8 @@ export const projects: ProjectPage[] = [
         image_url: "/running/podcast-scene-aesthetic-hand-mockup-design-cover-graphic-corporate-brand.png",
         headline: "Told out loud. A three-part podcast built from the research itself",
         paragraph: "Running Anyway is a three-episode audio series, part of Reimagining Cities, built from the same diaries and conversations behind the thesis, letting the women's own voices carry findings that data alone can't fully hold.",
+        button_text: "Listen to the podcast",
+        button_link: "https://open.spotify.com/show/1fANbqOyMkLJSbuQYvJgqE?si=cb4bc54c0cef4f52",
       },
       {
         type: "images",
