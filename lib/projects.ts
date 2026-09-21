@@ -33,11 +33,10 @@ export const projects: ProjectPage[] = [
         paragraph: "Running Anyway is a three-episode audio series, part of Reimagining Cities, built from the same diaries and conversations behind the thesis, letting the women's own voices carry findings that data alone can't fully hold.",
       },
       {
-        type: "image_paragraph",
-        image_orientation: "LEFT",
-        image_url: "/running/booklet-zine-design-graphic-design-layout-typography-logo-university-rotterdam-thesis-master-dissertation.png",
-        headline: "Written to be shared. A plain-language booklet, made for the people who lived it",
-        paragraph: "Alongside the academic thesis, a short booklet translates the findings into plain language, no jargon.",
+        type: "images",
+        images: [
+          { image_url: "/running/research-booklet-zine-design-graphic-design-layout-typography-logo-university-rotterdam-thesis-master-dissertation.jpg", link: "https://drive.google.com/file/d/1w3TuZCsFmw8vcEYFw9sxx_i-tXlsocre/view?usp=drive_link" }
+        ],
       },
       {
         type: "paragraph",
