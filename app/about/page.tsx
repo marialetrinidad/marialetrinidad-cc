@@ -71,7 +71,15 @@ export default function About() {
     return <div className="flex flex-col gap-8 mx-4 mb-24">
         <HeroParagraph paragraph={paragraph} />
         <div className="mx-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Image className="rotate-180 w-full h-auto" src="/portrait.jpg" alt="Portrait" width={600} height={1000} />
+            <Image
+                className="w-full h-auto"
+                src="/marialtrinidad_portrait_designer_researcher_artist_feminist.jpg"
+                alt="Portrait"
+                width={1200}
+                height={1600}
+                sizes= "(max-width: 768px) 100vw, 50vw" 
+                quality={90} 
+                />
             <div className="flex flex-col gap-24">
                 <div className="flex flex-col gap-8">
                     {description_paragraphs.map((description_paragraph) => (
